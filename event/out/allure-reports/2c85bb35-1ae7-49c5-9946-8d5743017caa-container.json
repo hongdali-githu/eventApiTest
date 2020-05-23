@@ -1,0 +1,1 @@
+{"uuid": "de1aac20-81f1-41cf-b680-3ac76e51299a", "children": ["6eb6ab86-9cb4-415e-b836-f10f463d481e"], "befores": [{"name": "mysqlhandle_insert", "status": "passed", "start": 1590239979518, "stop": 1590239979590}], "afters": [{"name": "mysqlhandle_insert::0", "status": "passed", "start": 1590239982341, "stop": 1590239982557}], "start": 1590239979518, "stop": 1590239982557}

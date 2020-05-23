@@ -1,0 +1,20 @@
+2020-05-23 21:19:35,883-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:35,945-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,005-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,066-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,127-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,186-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,251-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,311-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,370-root-ExeclHandle.py-23-INFO-文件打开成功
+2020-05-23 21:19:36,471-root-Mysqlhandle.py-25-INFO-数据库连接成功
+2020-05-23 21:19:36,498-root-Mysqlhandle.py-40-INFO-数据查询结果为{'id': '1100001645683', 'task_status': '1', 'task_priority': '', 'event_id': '1000007015048', 'interface_id': '1100001645683', 'event_unique_code': 'string', 'event_type_code': 'EVENT_TYPE_524', 'event_report_seq': '0', 'event_address': '衢州站', 'event_address_xy': '118.8888888,28.9999999', 'event_address_xy_src': '', 'event_range': '', 'event_range_src': '', 'event_range_links': '', 'event_cross': '骑快车道', 'event_rid': '', 'event_occur_time': '2020-05-13 08:00:00', 'event_title': '骑快车道', 'event_content': '骑快车道', 'event_process': '', 'event_level': '3', 'event_source': '视频报警', 'event_source_code': '', 'show_id': '', 'show_flag': '', 'new_flag': '0', 'overdue_flag': '', 'org_code': '330800', 'area_code': '330800', 'object_code': '', 'photo_code': '', 'video_code': 'rtmp://33.195.240.148:2235/33089917041320230101/livestream', 'voice_code': '', 'msg_content': '', 'sub_task_num': '0', 'sub_task_num_cnt': '0', 'old_id': '0', 'report_person': '', 'gmt_create': '2020-05-11 08:00:00', 'gmt_modified': '2020-05-11 08:00:00', 'short_video_code': '', 'segment_id': '', 'event_end_time': None, 'event_address_xys': None}
+2020-05-23 21:19:38,582-root-RequestHandle.py-16-ERROR-请求连接失败HTTPConnectionPool(host='10.45.26.100', port=18888): Max retries exceeded with url: /event/task/1100001645683 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002091F37D908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-05-23 21:19:39,517-root-Mysqlhandle.py-25-INFO-数据库连接成功
+2020-05-23 21:19:39,589-root-Mysqlhandle.py-40-INFO-数据查询结果为None
+2020-05-23 21:19:41,679-root-RequestHandle.py-16-ERROR-请求连接失败HTTPConnectionPool(host='10.45.26.100', port=18888): Max retries exceeded with url: /event/task/123456 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002091F603CF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-05-23 21:19:42,555-root-Mysqlhandle.py-40-INFO-数据查询结果为None
+2020-05-23 21:19:42,633-root-Mysqlhandle.py-25-INFO-数据库连接成功
+2020-05-23 21:19:42,730-root-Mysqlhandle.py-40-INFO-数据查询结果为None
+2020-05-23 21:19:44,786-root-RequestHandle.py-16-ERROR-请求连接失败HTTPConnectionPool(host='10.45.26.100', port=18888): Max retries exceeded with url: /event/123456/task/status (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002091F709128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2020-05-23 21:19:45,670-root-Mysqlhandle.py-40-INFO-数据查询结果为None
